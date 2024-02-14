@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url(imgs/bg-11.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Itim;
+}
+.myForm{
+   background: rgba(120, 120, 120, 0.156);
+    width: 400px;
+    height:320px;
+    margin-left:50px;
+    margin-top: 80px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+
+.myForm form input{
+    width:290px;
+    background: transparent;
+    display: block;
+    margin:10px;
+    margin-left:50px;
+    margin-top:35px;
+    border-radius: 5px;
+    padding:10px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    color:#fff;
+
+    
+}
+
+::placeholder{
+    color:#c9c9c9;
+}
+
+#submit{
+    background-color:rgba(58, 19, 4, 0.769);
+    border:2px solid black;
+    border-radius: 6px;
+    padding:10px;
+    margin-left:150px;
+    margin-top: 5px;
+    color:rgb(255, 233, 132);
+    font-size:20px;
+    text-transform: capitalize;
+    transition: 0.4s ease;
+}
+
+
+#submit:hover{
+    background-color: orange;
+    color:black;
+    transform: scale(1.1);
+}
+.myForm h1{
+    text-align: center;
+    margin-top:10px;
+    color:rgb(255, 233, 132);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+.fa-lock{
+    color:rgb(58, 19, 4);
+    font-size: 30px;
+    margin:10px;
+
+ 
+}
+
+
+.fa-envelope{
+    color:rgb(255, 233, 132);
+    font-size: 18px;
+    margin-left:60px;
+    margin-top:10px;
+
+
+}
+
+.fa-key{
+    color:rgb(255, 233, 132);
+    font-size: 18px;
+    margin-left:60px;
+    margin-top:37px;
+
+}
+
+
+
+form i {
+    position: absolute;
+
+   
+}
+
+
+#error{
+    color:red;
+   margin-left:50px;
+    font-size: 18px;
+    
+}
+
+
+

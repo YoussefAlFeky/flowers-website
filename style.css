@@ -1,0 +1,615 @@
+*{
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: cursive;
+}
+
+
+.signIN{
+    text-decoration: none;
+    padding:2px;
+    margin:3px;
+    background-color: bisque;
+    color:black;
+    border-radius: 10px;
+   
+
+}
+.signUP{
+    text-decoration: none;
+    padding:2px;
+    margin:3px;
+    background-color: bisque;
+    color:black;
+    border-radius: 10px;
+    
+
+
+}
+.home{
+    background-image: url(img/img12.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:90vh;
+}
+
+
+.navbar .navbar-brand img{
+    width:90px;
+    align-items: center;
+}
+
+.navbar .navbar-nav .nav-link{
+    margin:10px;
+    color:#fff;
+    font-size: 12px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:30px;
+  
+}
+
+
+.icons i{
+    margin-left:20px;
+
+    font-size: 17px;
+    color:20px;
+    color:#fff;
+}
+
+.home-text{
+    margin-top: 100px;
+}
+
+.home-text h1{
+    color : #fff;
+}
+
+.home-text p{
+    color : #c6c5c5;
+    width:900px;
+    text-align: center;
+    margin-left:200px;
+}
+
+.btn-1{
+    border: 1px solid #fff;
+    margin:10px;
+    padding: 14px;
+    font-size: 11px;
+    transition: 0.4s ease;
+
+  
+}
+.btn-2{
+    color:#fff;
+    border: 1px solid #fff;
+    margin:10px;
+    background-color: transparent;
+    padding: 14px;
+    font-size: 11px;
+    transition: 0.4s ease;
+}
+
+.middle{
+    display: flex;
+    margin:10px;
+    justify-content: center;
+    margin-top:70px;
+}
+
+.card{
+    border:none;
+    background-color: transparent;
+    margin-top:60px;
+    
+}
+
+.middle .card img{
+    width:40px;
+    /* padding-top:10px; */
+    margin-left : 70px;
+    
+}
+
+.card-body h3{
+    font-size: 15px;
+    color:#414040;
+}
+
+.card-body p{
+    font-size: 10px;
+    color:#414040;
+    margin-top:10px;
+}
+
+.arrangments{
+    background-color: rgb(233, 229, 224);
+    padding:100px;
+}
+.arrangments h3{
+   
+    font-size: 18px;
+}
+
+.arrangments-content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.mid-bg{
+    background-image: url(img/img12-copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mid-bg .card{
+    margin:  40px;
+    padding-top:20px;
+}
+
+.mid-bg .card h3{
+    color: white;
+    
+}
+.mid-bg .card p{
+    color: white;
+}
+
+.perfect-spot{
+  
+    background-image: url(img/img13.png);
+    background-size: contain;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+.spot-img img{
+    width:330px;
+    margin-top:30px;
+
+}
+
+
+.btn-3{
+    color:#000000;
+    border: 1px solid #000000;
+    margin:10px;
+    background-color: transparent;
+    padding: 15px  ;
+    font-size: 13px;
+    transition: 0.4s ease;
+}
+
+.btn-1:hover{
+    background-color: rgb(248, 223, 210);
+   
+}
+.btn-2:hover{
+    background-color: wheat;
+    color:#000000;
+}
+.btn-3:hover{
+    background-color: wheat;
+    color:#000000;
+}
+
+
+
+
+.experience{
+    background-image: url(img/img15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:60vh;
+    margin-top: 150px;
+}
+
+
+.text{
+    padding-top:150px;
+    color:#fff;
+}
+
+
+.text p{
+    width:800px;
+    margin-left: 130px;
+}
+
+
+.teams{
+    background-image: url(img/img01.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 110vh;
+    
+}
+.experts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experts img{
+    width:260px;
+    height:350px;
+    margin-top:100px;
+}
+
+.fa-brands{
+    margin:5px;
+    color:black;
+    font-size: 13px;
+}
+
+.two h3{
+    font-size: 17px;
+}
+
+.three h3{
+    font-size: 17px;
+}
+
+.four h3{
+    font-size: 17px;
+}
+
+.one h3{
+    font-size: 17px;
+}
+
+
+.flower{
+    display: flex;
+}
+
+.part-8{
+    margin-top:20px;
+    overflow: hidden;
+    background-color: rgb(255, 243, 229);
+    min-height: 80vh;
+}
+
+
+.part-8 img{
+width:310px;
+height: 190px;
+
+
+}
+
+.subscribe{
+  margin-top:18px;
+}
+input{
+    width: 460px;
+    height: 50px;
+}
+.part-8 button{
+    width: 200px;
+    background-color: black;
+}
+
+.part-9{
+    background-color: rgb(39, 37, 37);
+  
+    
+}
+.part-9 h5{
+    text-transform: capitalize;
+
+}
+.part-9 P{
+    color: gray;
+    font-size: 14px;
+ 
+}
+.part-9{
+    padding: 30px;
+}
+.part-9 .about .col h5{
+    color: white;
+}
+.part-9 .col img{
+    width:90px;
+    height: 56px;
+    margin-left:20px;
+}
+.part-10{
+    background-color: black;
+    width: 90%;
+    height: 70px;
+  
+    
+}
+.part-10 p{
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(64, 61, 61);
+}
+
+.fa-bars{
+    color:#fff;
+}
+@media(max-width:500px){
+
+  
+    .home{
+        background-image: url(img/img12.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 300px;
+        height:90vh;
+    }
+    
+ 
+    .home-text h1{
+        color : #fff;
+        font-size: 20px;
+       margin-left:10px;
+      
+    }
+    
+    .home-text p{
+        color : #c6c5c5;
+        width:270px;
+        text-align: center;
+        font-size: 9px;
+        margin-left:5px;
+    }
+    
+    .btn-1{
+        border: 1px solid #fff;
+        margin-left:100px;
+        padding: 14px;
+        font-size: 11px;
+        display: block;
+    
+      
+    }
+    .btn-2{
+        color:#fff;
+        border: 1px solid #fff;
+        margin:10px;
+        background-color: transparent;
+        padding: 14px;
+        font-size: 11px;
+        display: block;
+        margin-left:100px;
+    }
+
+    .middle{
+        display:block;
+        margin-left:45px;
+    }
+    
+.arrangments-content{
+
+    display: block;
+
+
+
+
+}
+.arrangments-content .card img{
+
+    display: block;
+    width:130px;
+
+
+
+}
+
+.card-body p{
+    font-size: 10px;
+    color:#414040;
+    margin-top:5px;
+    margin-right: 80px;
+}
+
+.mid-bg .card h3{
+    color: white;
+
+    
+}
+.mid-bg .card p{
+    color: white;
+    font-size: 9px;
+    width:100px;
+   
+}
+.mid-bg{
+    background-image: url(img/img12-copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+.perfect-spot{
+  
+
+    display:block;
+    align-items: center;
+    margin-left:60px;
+}
+
+.spot-img img{
+    width:190px;
+    margin-right:240px;
+    border-radius:20px 40px;
+ 
+
+}
+
+
+.btn-3{
+    color:#000000;
+    border: 1px solid #000000;
+    background-color: transparent;
+    padding: 12px  ;
+    font-size: 13px;
+}
+
+
+
+.experience{
+    background-image: url(img/img15.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:60vh;
+    margin-top: 50px;
+}
+
+
+.text{
+    padding-top:130px;
+    color:#fff;
+}
+
+
+.text p{
+    width:260px;
+    margin-left:2px;
+    font-size: 10px;
+}
+
+
+.teams{
+    background-image: url(img/img01.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 110vh;
+    
+}
+.experts{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.experts img{
+    width:130px;
+    height:170px;
+    margin-top:100px;
+}
+
+
+.two h3{
+    font-size: 13px;
+}
+
+.three h3{
+    font-size: 13px;
+}
+
+.four h3{
+    font-size: 13px;
+}
+
+.one h3{
+    font-size: 13px;
+}
+
+
+.part-8{
+    margin-top:20px;
+    overflow: hidden;
+    background-color: rgb(255, 243, 229);
+    min-height: 80vh;
+}
+
+
+.part-8 img{
+width:80px;
+height: 100px;
+margin-right:30px;
+
+
+}
+
+.subscribe{
+  margin-top:18px;
+}
+.subscribe h4{
+   font-size: 12px;
+  }
+input{
+    width: 230px;
+    height: 50px;
+}
+.part-8 button{
+    width: 100px;
+    font-size: 12px;
+    margin-top: 14px;
+    background-color: black;
+}
+
+
+.part-9 h5{
+    text-transform: capitalize;
+    font-size:19px;
+
+}
+.part-9 P{
+    color: gray;
+    font-size: 11px;
+ 
+}
+.part-9{
+    padding: 2px;
+}
+.part-9 .about .col h5{
+    color: white;
+}
+.part-9 .col img{
+    width:90px;
+    height: 56px;
+    margin-left:20px;
+}
+.part-10{
+    background-color: black;
+    width: 90%;
+    height: 70px;
+  
+    
+}
+.part-10 p{
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(64, 61, 61);
+}
+
+}
